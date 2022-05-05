@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.all-content {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+}
+.img-background {
+  width: 100%;
+}
+.img-stall {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+.img__photo-hand {
+  position: absolute;
+  top: 50%;
+  left: 17.2%;
+  width: 9%;
+}
+.img__photo-background {
+  position: absolute;
+  top: 46%;
+  left: 31%;
+  width: 35%;
+}
+.img-logo {
+  position: absolute;
+  top: 13%;
+  left: 34%;
+  width: 7%;
+}
+.img-back {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  width: 4%;
+}
+.text-title {
+  position: absolute;
+  top: 13%;
+  left: 43%;
+  color: #333333;
+  text-align: center;
+}
+.text-title h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+.text-title h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+.btn {
+  position: absolute;
+  top: 92%;
+  left: 48%;
+  width: 15%;
+}
+.img-hand {
+  position: absolute;
+  top: 97%;
+  left: 60%;
+  width: 2.5%;
+}
+.displayer-content {
+  position: absolute;
+  top: 45%;
+  left: 70%;
+}
+.img-displayer {
+  width: 40%;
+}
+.img-web {
+  width: 10%;
+}
+.item-list {
+  position: absolute;
+  top: 14%;
+  left: 5%;
+}
+.item-list li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.item-list li img {
+  width: 20%;
+}
+.item-list li p {
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+  max-width: 13rem;
+}
+.img-web {
+  position: absolute;
+  top: -2%;
+  left: 26%;
+}
